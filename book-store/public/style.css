@@ -1,0 +1,69 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f2f6;  /* Light gray background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Centering the Form */
+  .login-container, .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Form Styling */
+  .login-form, .signup-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Fixed width for the form */
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Inputs and Button */
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2; /* Facebook blue */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #165eab; /* Darker blue on hover */
+  }
+  
+  /* Links */
+  a {
+    color: #1877f2;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* For a smooth transition when navigating */
+  transition: all 0.3s ease;
+  
